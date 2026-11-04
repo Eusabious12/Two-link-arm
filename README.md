@@ -58,7 +58,11 @@ This is a simplified model: a flat 2D arm, perfect knowledge of where the
 target is, no sensor noise and no motor limits. A real system would need
 sensing, filtering and a safety layer on top.
 
+<<<<<<< HEAD
 Files
+=======
+ Files
+>>>>>>> 928735c (Rename README to README.md)
 
 - `arm.py`: forward, inverse and iterative kinematics with plots
 - `follow_line.py`: the moving-truck simulation, writes `demo.gif`
