@@ -1,5 +1,4 @@
-A robot arm that keeps painting straight while the truck wobbles
-
+   # A robot arm that keeps painting straight while the truck wobbles
 ![demo](demo.gif)
 
 A truck drives along a curved line. The ground is rough, so the truck sways
@@ -58,11 +57,7 @@ This is a simplified model: a flat 2D arm, perfect knowledge of where the
 target is, no sensor noise and no motor limits. A real system would need
 sensing, filtering and a safety layer on top.
 
-<<<<<<< HEAD
-Files
-=======
- Files
->>>>>>> 928735c (Rename README to README.md)
+## Files
 
-- `arm.py`: forward, inverse and iterative kinematics with plots
-- `follow_line.py`: the moving-truck simulation, writes `demo.gif`
+ - `arm.py`: forward, inverse and iterative kinematics with plots
+ - `follow_line.py`: the moving-truck simulation, writes `demo.gif`
